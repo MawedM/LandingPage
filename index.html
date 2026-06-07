@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePro - Professional Home Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- MOBILE NAV DRAWER OVERLAY -->
+    <div class="nav-drawer-overlay" id="navOverlay" onclick="closeMobileNav()"></div>
+
+    <!-- MOBILE NAV DRAWER -->
+    <div class="nav-drawer" id="navDrawer">
+        <div class="nav-drawer-header">
+            <a href="#" class="nav-drawer-logo">
+                <img src="../images/images/nav-logo.png" alt="HomePro">
+            </a>
+            <button class="nav-drawer-close" onclick="closeMobileNav()" aria-label="Close menu">
+                <img src="../icons/icons/icon_x.svg" alt="Close">
+            </button>
+        </div>
+        <nav class="nav-drawer-links">
+            <a href="#about" onclick="closeMobileNav()">About Us</a>
+            <a href="#services" onclick="closeMobileNav()">Services</a>
+            <a href="#blog" onclick="closeMobileNav()">Our Blog</a>
+            <a href="#contact" onclick="closeMobileNav()">Contact</a>
+        </nav>
+        <div class="nav-drawer-footer">
+            <span class="nav-drawer-badge">24 Hour Services</span>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="container">
+            <a href="#" class="nav-logo">
+                <img src="../images/images/nav-logo.png" alt="HomePro">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Our Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <span class="nav-phone">
+                </span>
+                <span class="nav-badge">24 Hour Services</span>
+            </div>
+            <button class="nav-menu-btn" onclick="openMobileNav()" aria-label="Open menu">
+                <img src="../icons/icons/icon_menu.svg" alt="Menu">
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-worker hero-worker-left">
+                <img src="../images/images/hero-worker-repairing.png" alt="Home repair professional">
+            </div>
+            <div class="hero-center">
+                <div class="hero-breadcrumb">
+                    Maintenance     <span>›</span> Repairs <span>›</span> Improvements
+                </div>
+                <h1 class="hero-title">Need improvement or repair your home? We can help!</h1>
+                <div class="hero-checks">
+                    <div class="hero-check">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Free Quotes
+                    </div>
+                    <div class="hero-check">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        100% Commission-free
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="tel:+18004774371" class="btn-primary">
+                        <img src="../icons/icons/icon-phone.svg" alt="">
+                        Call Us Now
+                    </a>
+                </div>
+                
+            </div>
+            <div class="hero-worker hero-worker-right">
+                <img src="../images/images/hero-worker-plumbing.png" alt="Plumbing professional">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES STRIP -->
+    <div class="features-strip">
+        <div class="container">
+            <div class="feature-item">
+                <div class="feature-item-icon">
+                    <img src="../icons/icons/icon-guarantee.svg" alt="">
+                </div>
+                <span class="feature-item-text">Satisfaction Guaranteed</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-item-icon">
+                    <img src="../icons/icons/icon-clock.svg" alt="">
+                </div>
+                <span class="feature-item-text">24h Availability</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-item-icon">
+                    <img src="../icons/icons/icon-map-pin.svg" alt="">
+                </div>
+                <span class="feature-item-text">Local Professionals</span>
+            </div>
+            <div class="feature-item">
+                <div class="feature-item-icon">
+                    <img src="../icons/icons/icon-calendar.svg" alt="">
+                </div>
+                <span class="feature-item-text">Flexible Appointments</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <p class="section-label">About Us</p>
+                <h2 class="section-title">Professional for your home services</h2>
+                <p class="about-desc">You need help at home! But you're not sure where to start. Getting help from this digital hub will connect you to the right professionals near your area quickly and efficiently!</p>
+                <ul class="about-list">
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Repair and Installation
+                    </li>
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Plumbing
+                    </li>
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Maintenance
+                    </li>
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Budget-Friendly
+                    </li>
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Home Security Services
+                    </li>
+                    <li class="about-list-item">
+                        <img src="../icons/icons/icon-check.svg" alt="">
+                        Eco-Friendly Solutions
+                    </li>
+                </ul>
+                <div class="about-cta">
+                    <div class="about-contact-pill">
+                        <p>We already 24 hours fast services to help you.</p>
+                        <p>You can contact us at <a href="tel:+18886175894">(888) 617–5894</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="../images/images/about-workers.png" alt="Professional home service workers">
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">What We Offer</p>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">We see problems with your home and we have solutions. With our team of experts, we can handle all types of home service problems. All home professionals are verified!</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-plumbing-filled.svg" alt="">
+                    </div>
+                    <h3>Plumbing services</h3>
+                    <p>Detect and repair pipe leaks, unclogging techniques, maintenance &amp; more.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-roof-filled.svg" alt="">
+                    </div>
+                    <h3>Roofing repair</h3>
+                    <p>Damage repair, tile replacement, and inspection for durability.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-wall-filled.svg" alt="">
+                    </div>
+                    <h3>Mold Removal</h3>
+                    <p>Removing mold and cleaning. Mold resistant coatings applied.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-wood-tree-filled.svg" alt="">
+                    </div>
+                    <h3>Tree Trimming</h3>
+                    <p>Trimming and cleaning. Dead branch removal. Tree service.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-repair-filled.svg" alt="">
+                    </div>
+                    <h3>Appliance Repair</h3>
+                    <p>Diagnose and fix appliances. No inconveniences, no over costs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-bathroom-filled.svg" alt="">
+                    </div>
+                    <h3>Bathroom Remodeling</h3>
+                    <p>Design and renovation. Bathroom flooring. Installation. Ready for life.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <img src="../icons/icons/icon-door-filled.svg" alt="">
+                    </div>
+                    <h3>Locksmith</h3>
+                    <p>Lock installation and repair. Duplication. Lock rekeying.</p>
+                </div>
+                <div class="service-card service-card-cta">
+                    <h3>More service?</h3>
+                    <p>Discover more amazing services for all your home needs and requirements.</p>
+                    <a href="tel:+18004774371" class="btn-white">Call Us Now &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-header">
+                <h2 class="section-title">Fast, Friendly, and Satisfaction Guarantee</h2>
+                <p class="section-subtitle">No matter how big or small your work is, whether it's for the interior or exterior of your home, we are ready to serve and help you solve your home problems.</p>
+            </div>
+            <div class="guarantee-grid">
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-guarantee-filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>Satisfaction Guarantee</h4>
+                        <p>you don't need to worry about scams or our performance results. our company has been verified and strives for optimal results.</p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-quotes-filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>Free Quotes</h4>
+                        <p>Get personalized cost estimates without any obligation. Experience transparency and peace of mind as you explore our service.</p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-local-filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>Local Professionals</h4>
+                        <p>Our services cover the Nationwide, US area, including urban, suburban, and rural locations for both long and short term maintenance.</p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-24h-Filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>Fast 24-Hour Service</h4>
+                        <p>Need fast handling for repairs to drains, leaks or something else? Our experts are available anytime to help you solve the problem.</p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-calendar-filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>Flexible Appointments</h4>
+                        <p>We offer convenient appointment times that can accommodate your busy schedule, day or night, 7 days a week.</p>
+                    </div>
+                </div>
+                <div class="guarantee-item">
+                    <div class="guarantee-item-icon">
+                        <img src="../icons/icons/icon-commitment-filled.svg" alt="">
+                    </div>
+                    <div class="guarantee-item-content">
+                        <h4>100% Commitment-Free</h4>
+                        <p>You are free to ask us about the problems you are facing. We offer a no-commitment approach to put your mind at ease.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-works">
+        <div class="how-works-image">
+            <img class="how-bg" src="../images/images/how-works-bg.png" alt="">
+            <img class="how-worker" src="../images/images/how-works-worker.png" alt="HomePro professional worker">
+        </div>
+        <div class="how-works-content">
+            <p class="section-label">Process</p>
+            <h2 class="section-title">How HomePro works?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-body">
+                        <h4>Call us anytime 24/7</h4>
+                        <p>You can contact us directly. Our team of experts will answer your call and find a qualified Smart Worker near you — automatically matched to your needs.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-body">
+                        <h4>Schedule Service</h4>
+                        <p>After connecting with you, one of our home experts will schedule a Smart Worker at a time that works for you.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-body">
+                        <h4>Your request is completed</h4>
+                        <p>Once the job is done, hand payments are never required. Pay from the comfort of your home. If the offer isn't right, there's nothing to pay!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews">
+        <div class="container">
+            <p class="section-label" style="text-align:center;">Testimonials</p>
+            <h2 class="section-title" style="text-align:center;max-width:520px;margin-left:auto;margin-right:auto;margin-bottom:10px;">Here our original reviews from trusted platform</h2>
+            <img src="../images/images/review-logo.png" alt="Trustpilot" class="trustpilot-logo">
+            <div class="review-carousel">
+                <div class="review-card">
+                    <p class="review-text">"Find reviews on a real freelancer, but HomePro is indeed the best! Think nothing but the best, highest quality. With them, I have the most amazing experience. With them, I always feel well, ready for every new task and challenge."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">K</div>
+                        <div>
+                            <div class="review-author-name">Kanda Attia</div>
+                            <div class="review-stars">
+                                <img src="../icons/icons/icon-star.svg" alt="★">
+                                <img src="../icons/icons/icon-star.svg" alt="★">
+                                <img src="../icons/icons/icon-star.svg" alt="★">
+                                <img src="../icons/icons/icon-star.svg" alt="★">
+                                <img src="../icons/icons/icon-star.svg" alt="★">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-nav">
+                    <button class="review-nav-btn" aria-label="Previous">&#8592;</button>
+                    <div class="review-dots">
+                        <div class="review-dot active"></div>
+                        <div class="review-dot"></div>
+                        <div class="review-dot"></div>
+                    </div>
+                    <button class="review-nav-btn" aria-label="Next">&#8594;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore Insights in Our Blog</h2>
+                <p class="section-subtitle">Find lots of insights and information on our blog. Explore, learn, and get inspired today.</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img class="blog-card-thumb" src="../images/images/blog-thumbnail-01.png" alt="Smart Home Systems">
+                    <div class="blog-card-body">
+                        <span class="blog-date">19 Jan 2023</span>
+                        <h3>Understanding Smart Home Systems &amp; Maintenance</h3>
+                        <p class="blog-desc">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Plumbing</span>
+                            <span class="blog-tag">Architecture</span>
+                            <span class="blog-tag">Maintenance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-card-thumb" src="../images/images/blog-thumbnail-02.png" alt="Home Repairs Guide">
+                    <div class="blog-card-body">
+                        <span class="blog-date">19 Jan 2023</span>
+                        <h3>The Ultimate Guide to Home Repairs and Renovations</h3>
+                        <p class="blog-desc">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Plumbing</span>
+                            <span class="blog-tag">Architecture</span>
+                            <span class="blog-tag">Maintenance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-card-thumb" src="../images/images/blog-thumbnail-03.png" alt="Kitchen Refresh">
+                    <div class="blog-card-body">
+                        <span class="blog-date">19 Jan 2023</span>
+                        <h3>Painting Techniques for a Kitchen Refresh</h3>
+                        <p class="blog-desc">Discover the ultimate guide to troubleshooting common smart home issues in our latest blog post. From connectivity problems to device malfunctions.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Plumbing</span>
+                            <span class="blog-tag">Architecture</span>
+                            <span class="blog-tag">Maintenance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-view-more">
+                <a href="#">View More &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="faq-left">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Still need help?</p>
+                <a href="#contact" class="faq-link">Get help here</a>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item open">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        What is HomePro?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">HomePro is a platform that connects you with professional home service experts in your area. Whether it's plumbing, electrical work, landscaping, or any other home service, we help you find qualified professionals quickly and efficiently — with no commitment required.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        Are the service providers on HomePro reliable and qualified?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">All our service providers go through a thorough vetting process including background checks, license verification, and skill assessments. We only work with certified professionals who have proven track records and consistently high customer ratings.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        What if I have an issue or complaint about a service provider?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">We take customer satisfaction very seriously. If you have any issues, our 24/7 customer support team is ready to help. We also offer a satisfaction guarantee — if you're not happy with the service, we'll make it right.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How are payments handled on HomePro?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">All payments are handled securely through our platform. You'll receive a transparent quote before any work begins, and payment is only processed once you're satisfied with the completed service. No hidden fees, ever.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        How do I leave a review for a service provider?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">After a service is completed, you'll receive a follow-up email with a link to leave your review. You can also leave reviews directly from your HomePro account dashboard under "Completed Services".</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2>Already to improve or repair your home? Let's Talk!</h2>
+                <p>Quality is our lifestyle. We are committed to being the best home service company with the highest quality standards, serving you 24/7.</p>
+                <a href="tel:+18004774371" class="btn-white">
+                    <img src="../icons/icons/icon-phone.svg" alt="" style="width:16px;height:16px;">
+                    Call Us Now
+                </a>
+            </div>
+            <div class="cta-banner-image">
+                <img src="../images/images/banner.png" alt="HomePro professional">
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <div class="newsletter">
+        <div class="container">
+            <div class="newsletter-text">
+                <h3>Stay Connected with Our Newsletter</h3>
+                <p>Subscribe to our newsletter. We only send quality content, obligate to nothing.</p>
+            </div>
+            <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+                <input type="email" class="newsletter-input" placeholder="Enter your email address..." required>
+                <button type="submit" class="btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="../images/images/nav-logo.png" alt="HomePro" class="footer-brand-logo">
+                    <p>Thanks for choosing HomePro to help with your home. We are committed to providing the best quality service, making your life easier every day.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <img src="../icons/icons/icon-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <img src="../icons/icons/icon-instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="footer-social" aria-label="Twitter">
+                            <img src="../icons/icons/icon-twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="#" class="footer-social" aria-label="YouTube">
+                            <img src="../icons/icons/icon-youtube.svg" alt="YouTube">
+                        </a>
+                        <a href="mailto:hello@homepro.com" class="footer-social" aria-label="Email">
+                            <img src="../icons/icons/icon-mail.svg" alt="Email">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blog">Our Blog</a></li>
+                        <li><a href="#">Offers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">GDPR</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">License</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HomePro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* ── Mobile nav drawer ── */
+        function openMobileNav() {
+            document.getElementById('navDrawer').classList.add('open');
+            document.getElementById('navOverlay').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileNav() {
+            document.getElementById('navDrawer').classList.remove('open');
+            document.getElementById('navOverlay').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        /* Close on Escape key */
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeMobileNav();
+        });
+
+        /* ── FAQ accordion ── */
+        function toggleFaq(questionEl) {
+            const item = questionEl.closest('.faq-item');
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+            if (!isOpen) item.classList.add('open');
+        }
+
+        /* ── Newsletter submit ── */
+        function handleNewsletterSubmit(e) {
+            e.preventDefault();
+            const input = e.target.querySelector('input');
+            const btn = e.target.querySelector('button');
+            const orig = btn.textContent;
+            btn.textContent = 'Subscribed!';
+            btn.style.background = 'linear-gradient(135deg, #00c853, #00897b)';
+            input.value = '';
+            setTimeout(() => {
+                btn.textContent = orig;
+                btn.style.background = '';
+            }, 3000);
+        }
+
+        /* ── Active nav link on scroll ── */
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                if (window.scrollY >= section.offsetTop - 100) current = section.id;
+            });
+            navLinks.forEach(link => {
+                link.style.color = link.getAttribute('href') === '#' + current ? '#0094ff' : '';
+            });
+        });
+    </script>
+</body>
+</html>
